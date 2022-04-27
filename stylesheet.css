@@ -1,0 +1,78 @@
+body {
+  font-family: sans-serif;
+  color: black;
+  background-color: white;
+  text-align:left;
+}
+
+
+#top {
+  height: 25%;
+  text-align: left;
+  border-top: 70px rgba(211,65,63,1) solid;
+  border-bottom: 2px solid black;
+
+}
+
+h1 {
+  border-bottom: 10px solid rgba(211,65,63,1);
+}
+
+
+#section1 {
+  background-color: khaki;
+  border-bottom: 2px solid black;
+}
+
+#informazioni {
+  margin-right: 15%;
+  margin-left: 15%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 1;
+  
+}
+
+#foto {
+  height: 500px;
+}
+
+#info {
+  text-align: center;
+  margin-left: 7%;
+  border-bottom: 10px solid rgba(211,65,63,1);
+    padding: 20px;
+}
+
+h2 {
+  border-bottom: 5px solid rgba(211,65,63,1);
+}
+
+.sottocategoria {
+  background-color: khaki;
+}
+
+#research, #altro, #didattica, #tesi {
+  margin-top: 5%;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+li {
+  font-size: 12px;
+}
+
+#testoTesi {
+  font-size: 12px;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: khaki;
+}
